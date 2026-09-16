@@ -37,16 +37,11 @@ public class Main {
         System.out.print("Ingrese el número de cuenta: ");
         String numeroCuenta = entrada.nextLine();
 
-        System.out.print("Ingrese el saldo: ");
-        double saldo = entrada.nextDouble();
-        entrada.nextLine();
-
         System.out.print("Ingrese el tipo de cuenta: ");
         String tipoCuenta = entrada.nextLine();
 
         CuentaBancaria cuenta = new CuentaBancaria(
                 numeroCuenta,
-                saldo,
                 tipoCuenta
         );
 
